@@ -23,27 +23,37 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(IBAction)testAlertView:(id)senderb{
+    
+}
+
+
 -(IBAction)testActionSheet:(id)sender{
-UIAlertView *alertView = [[UIAlertView alloc]
-                          initWithTitle:@"Alert"
-                          message:@"Alert text goes here"
-                          delegate:self
-                          cancelButtonTitle:@"NO"
-                          otherButtonTitles:@"YES",nil];
+    UIAlertView *alertView = [[UIAlertView alloc]
+                              initWithTitle:@"Alert"
+                              message:@"Alert text goes here"
+                              delegate:self
+                              cancelButtonTitle:@"NO"
+                              otherButtonTitles:@"YES",nil];
     
     [alertView show];
 }
 #pragma mark
 -(void)alertView:(UIAlertView *) alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
     NSLog(@"buttonIndex = %li",(long)buttonIndex);
+    
+    UIAlertView *alertview = [[UIAlertView alloc]
+                              initWithTitle:@"Alert"
+                              message:@"Alert text goes here"
+                              delegate:nil
+                              cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil
+                              ];
+    
+    [alertview show];
 }
 
-UIAlertView *alertview = [[UIAlertView alloc]
-                          initWithTitle:@"Alert"
-                          message:@"Alert text goes here"
-                          delegate:nil
-                          cancelButtonTitle:@"OK"
-                          otherButtonTitles:nil
-                          ];
+
 
 @end
