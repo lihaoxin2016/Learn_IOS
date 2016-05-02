@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gDg-gO-2tw"/>
+                        <viewControllerLayoutGuide type="bottom" id="qZj-ZD-zsw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdD-27-Ooc">
+                                <rect key="frame" x="200" y="413" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpO-ei-bzg">
+                                <rect key="frame" x="137" y="116" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REG-aT-fGO">
+                                <rect key="frame" x="57" y="413" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cpO-ei-bzg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="712-yW-dHm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cpO-ei-bzg" secondAttribute="trailing" constant="116" id="Cl7-f3-b5o"/>
+                            <constraint firstItem="REG-aT-fGO" firstAttribute="top" secondItem="cpO-ei-bzg" secondAttribute="bottom" constant="410" id="RsB-He-L1O"/>
+                            <constraint firstItem="REG-aT-fGO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="27" id="e2Y-4U-ahx"/>
+                            <constraint firstItem="cpO-ei-bzg" firstAttribute="top" secondItem="gDg-gO-2tw" secondAttribute="bottom" constant="40" id="eTf-So-CEM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="REG-aT-fGO" secondAttribute="trailing" constant="124" id="tKe-rN-kkP"/>
+                            <constraint firstItem="cpO-ei-bzg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vJT-cz-yBD"/>
+                            <constraint firstItem="LdD-27-Ooc" firstAttribute="top" secondItem="REG-aT-fGO" secondAttribute="bottom" constant="108" id="zaA-tW-bwh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129.59999999999999" y="321.39333333333326"/>
+        </scene>
+    </scenes>
+</document>

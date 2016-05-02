@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2E239AE1CB27DDB00513CED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E239AD1CB27DDB00513CED /* AppDelegate.swift */; };
+		B2E239B01CB27DDB00513CED /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E239AF1CB27DDB00513CED /* FirstViewController.swift */; };
+		B2E239B21CB27DDB00513CED /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E239B11CB27DDB00513CED /* SecondViewController.swift */; };
+		B2E239B51CB27DDB00513CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E239B31CB27DDB00513CED /* Main.storyboard */; };
+		B2E239B71CB27DDB00513CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E239B61CB27DDB00513CED /* Assets.xcassets */; };
+		B2E239BA1CB27DDB00513CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E239B81CB27DDB00513CED /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2E239AA1CB27DDB00513CED /* Frist Scene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frist Scene.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E239AD1CB27DDB00513CED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2E239AF1CB27DDB00513CED /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B2E239B11CB27DDB00513CED /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B2E239B41CB27DDB00513CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2E239B61CB27DDB00513CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2E239B91CB27DDB00513CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2E239BB1CB27DDB00513CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2E239A71CB27DDB00513CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2E239A11CB27DDB00513CED = {
+			isa = PBXGroup;
+			children = (
+				B2E239AC1CB27DDB00513CED /* Frist Scene */,
+				B2E239AB1CB27DDB00513CED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2E239AB1CB27DDB00513CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2E239AA1CB27DDB00513CED /* Frist Scene.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2E239AC1CB27DDB00513CED /* Frist Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B2E239AD1CB27DDB00513CED /* AppDelegate.swift */,
+				B2E239AF1CB27DDB00513CED /* FirstViewController.swift */,
+				B2E239B11CB27DDB00513CED /* SecondViewController.swift */,
+				B2E239B31CB27DDB00513CED /* Main.storyboard */,
+				B2E239B61CB27DDB00513CED /* Assets.xcassets */,
+				B2E239B81CB27DDB00513CED /* LaunchScreen.storyboard */,
+				B2E239BB1CB27DDB00513CED /* Info.plist */,
+			);
+			path = "Frist Scene";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2E239A91CB27DDB00513CED /* Frist Scene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2E239BE1CB27DDB00513CED /* Build configuration list for PBXNativeTarget "Frist Scene" */;
+			buildPhases = (
+				B2E239A61CB27DDB00513CED /* Sources */,
+				B2E239A71CB27DDB00513CED /* Frameworks */,
+				B2E239A81CB27DDB00513CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frist Scene";
+			productName = "Frist Scene";
+			productReference = B2E239AA1CB27DDB00513CED /* Frist Scene.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2E239A21CB27DDB00513CED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lhx;
+				TargetAttributes = {
+					B2E239A91CB27DDB00513CED = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B2E239A51CB27DDB00513CED /* Build configuration list for PBXProject "Frist Scene" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2E239A11CB27DDB00513CED;
+			productRefGroup = B2E239AB1CB27DDB00513CED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2E239A91CB27DDB00513CED /* Frist Scene */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2E239A81CB27DDB00513CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E239BA1CB27DDB00513CED /* LaunchScreen.storyboard in Resources */,
+				B2E239B71CB27DDB00513CED /* Assets.xcassets in Resources */,
+				B2E239B51CB27DDB00513CED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2E239A61CB27DDB00513CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E239B21CB27DDB00513CED /* SecondViewController.swift in Sources */,
+				B2E239AE1CB27DDB00513CED /* AppDelegate.swift in Sources */,
+				B2E239B01CB27DDB00513CED /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2E239B31CB27DDB00513CED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E239B41CB27DDB00513CED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2E239B81CB27DDB00513CED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E239B91CB27DDB00513CED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2E239BC1CB27DDB00513CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2E239BD1CB27DDB00513CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2E239BF1CB27DDB00513CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Frist Scene/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lhx.Frist-Scene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2E239C01CB27DDB00513CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Frist Scene/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lhx.Frist-Scene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2E239A51CB27DDB00513CED /* Build configuration list for PBXProject "Frist Scene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E239BC1CB27DDB00513CED /* Debug */,
+				B2E239BD1CB27DDB00513CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2E239BE1CB27DDB00513CED /* Build configuration list for PBXNativeTarget "Frist Scene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E239BF1CB27DDB00513CED /* Debug */,
+				B2E239C01CB27DDB00513CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2E239A21CB27DDB00513CED /* Project object */;
+}
