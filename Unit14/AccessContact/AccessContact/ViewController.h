@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AddressBook/AddressBook.h>
+#import "DetailViewController.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UITableViewController<UISearchBarDelegate>
+@property(weak, nonatomic)IBOutlet UISearchBar *searchBar;
+@property(nonatomic, strong)NSArray *listContacts;
+-(void)filterContentForSerachText:(NSString*)searchText;
+
 
 
 @end
