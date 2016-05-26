@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="h87-4u-DGT">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wt9-0g-HSm">
+            <objects>
+                <viewController id="h87-4u-DGT" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bqE-KS-g2R"/>
+                        <viewControllerLayoutGuide type="bottom" id="NKg-iu-7XM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AoG-yA-z85">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Gtl-Dm-1wx">
+                                <constraints>
+                                    <constraint firstAttribute="height" id="SEg-4h-VDt">
+                                        <variation key="widthClass=compact" constant="600"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" id="sIe-ea-GtP">
+                                        <variation key="widthClass=compact" constant="400"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="SEg-4h-VDt"/>
+                                        <exclude reference="sIe-ea-GtP"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="SEg-4h-VDt"/>
+                                        <include reference="sIe-ea-GtP"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="SEg-4h-VDt"/>
+                                        <exclude reference="sIe-ea-GtP"/>
+                                    </mask>
+                                </variation>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Gtl-Dm-1wx" firstAttribute="top" secondItem="AoG-yA-z85" secondAttribute="top" id="7H9-Uj-2I9"/>
+                            <constraint firstItem="Gtl-Dm-1wx" firstAttribute="bottom" secondItem="NKg-iu-7XM" secondAttribute="top" id="9uC-gY-pMK"/>
+                            <constraint firstItem="Gtl-Dm-1wx" firstAttribute="top" secondItem="AoG-yA-z85" secondAttribute="top" id="CgZ-YV-p2H"/>
+                            <constraint firstAttribute="trailing" secondItem="Gtl-Dm-1wx" secondAttribute="trailing" id="fgh-bg-CTw"/>
+                            <constraint firstItem="Gtl-Dm-1wx" firstAttribute="leading" secondItem="AoG-yA-z85" secondAttribute="leadingMargin" constant="-21" id="kLq-MB-0PF"/>
+                            <constraint firstItem="Gtl-Dm-1wx" firstAttribute="leading" secondItem="AoG-yA-z85" secondAttribute="leading" id="lPq-nD-DJs"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Gtl-Dm-1wx"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="kLq-MB-0PF"/>
+                                <exclude reference="lPq-nD-DJs"/>
+                                <exclude reference="9uC-gY-pMK"/>
+                                <exclude reference="7H9-Uj-2I9"/>
+                                <exclude reference="fgh-bg-CTw"/>
+                                <exclude reference="CgZ-YV-p2H"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Gtl-Dm-1wx"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="lPq-nD-DJs"/>
+                                <include reference="7H9-Uj-2I9"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="kLq-MB-0PF"/>
+                                <exclude reference="lPq-nD-DJs"/>
+                                <include reference="9uC-gY-pMK"/>
+                                <exclude reference="7H9-Uj-2I9"/>
+                                <include reference="fgh-bg-CTw"/>
+                                <include reference="CgZ-YV-p2H"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="Gtl-Dm-1wx" id="j55-5k-wju"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LQF-SH-ZOH" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="321" y="429"/>
+        </scene>
+    </scenes>
+</document>

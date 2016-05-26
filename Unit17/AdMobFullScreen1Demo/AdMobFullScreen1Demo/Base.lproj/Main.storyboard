@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ItL-VI-xa5">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="0do-TS-Lzk">
+            <objects>
+                <viewController id="ItL-VI-xa5" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="G0X-US-Irc"/>
+                        <viewControllerLayoutGuide type="bottom" id="QVV-5f-sHS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WAi-0D-gEq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主屏幕界面" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p0m-So-DwJ">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="gKV-HJ-6yS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gKV-HJ-6yS"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="gKV-HJ-6yS"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="p0m-So-DwJ" firstAttribute="top" secondItem="G0X-US-Irc" secondAttribute="bottom" constant="342" id="BPk-mS-LzB"/>
+                            <constraint firstItem="p0m-So-DwJ" firstAttribute="centerX" secondItem="WAi-0D-gEq" secondAttribute="centerX" id="RQg-Is-ygr"/>
+                            <constraint firstItem="QVV-5f-sHS" firstAttribute="top" secondItem="p0m-So-DwJ" secondAttribute="bottom" constant="363" id="etn-Vc-Tfs"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="p0m-So-DwJ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="etn-Vc-Tfs"/>
+                                <exclude reference="BPk-mS-LzB"/>
+                                <exclude reference="RQg-Is-ygr"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="p0m-So-DwJ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="etn-Vc-Tfs"/>
+                                <include reference="BPk-mS-LzB"/>
+                                <include reference="RQg-Is-ygr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N8Q-ep-Cmj" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="388.5" y="165"/>
+        </scene>
+    </scenes>
+</document>

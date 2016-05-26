@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZU1-bD-YIx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Oby-uG-Qi4">
+            <objects>
+                <viewController id="ZU1-bD-YIx" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZpJ-U0-cA7"/>
+                        <viewControllerLayoutGuide type="bottom" id="jGl-fb-F9V"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UAL-3U-iXw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bcL-YJ-cD1">
+                                <rect key="frame" x="121" y="555" width="527" height="9"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GaB-dj-GqJ">
+                                <rect key="frame" x="203" y="255" width="363" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="363" id="agd-1K-VaV"/>
+                                    <constraint firstAttribute="height" constant="82" id="zQ9-Ya-CgV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <state key="normal" title="开始游戏">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="agd-1K-VaV"/>
+                                        <exclude reference="zQ9-Ya-CgV"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="agd-1K-VaV"/>
+                                        <include reference="zQ9-Ya-CgV"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="start:" destination="ZU1-bD-YIx" eventType="touchUpInside" id="tET-66-ak7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="游戏进度" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMc-wW-TWW">
+                                <rect key="frame" x="323" y="442" width="123" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="I8j-B3-R6b"/>
+                                    <constraint firstAttribute="height" constant="56" id="Rpp-yw-oEE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="I8j-B3-R6b"/>
+                                        <exclude reference="Rpp-yw-oEE"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="I8j-B3-R6b"/>
+                                        <include reference="Rpp-yw-oEE"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sMc-wW-TWW" firstAttribute="centerX" secondItem="bcL-YJ-cD1" secondAttribute="centerX" id="Pmx-Hu-dXs"/>
+                            <constraint firstItem="jGl-fb-F9V" firstAttribute="top" secondItem="bcL-YJ-cD1" secondAttribute="bottom" constant="278" id="T0w-DQ-Uls"/>
+                            <constraint firstItem="bcL-YJ-cD1" firstAttribute="leading" secondItem="UAL-3U-iXw" secondAttribute="leadingMargin" constant="21" id="cQA-sQ-Mgi"/>
+                            <constraint firstItem="GaB-dj-GqJ" firstAttribute="top" secondItem="ZpJ-U0-cA7" secondAttribute="bottom" constant="200" id="ihU-De-eW7"/>
+                            <constraint firstItem="GaB-dj-GqJ" firstAttribute="centerX" secondItem="UAL-3U-iXw" secondAttribute="centerX" id="mCO-Hb-XNU"/>
+                            <constraint firstItem="bcL-YJ-cD1" firstAttribute="top" secondItem="sMc-wW-TWW" secondAttribute="bottom" constant="57" id="pSe-96-EaU"/>
+                            <constraint firstItem="GaB-dj-GqJ" firstAttribute="centerX" secondItem="sMc-wW-TWW" secondAttribute="centerX" id="qUS-qU-mHk"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="bcL-YJ-cD1"/>
+                                <exclude reference="GaB-dj-GqJ"/>
+                                <exclude reference="sMc-wW-TWW"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="T0w-DQ-Uls"/>
+                                <exclude reference="ihU-De-eW7"/>
+                                <exclude reference="mCO-Hb-XNU"/>
+                                <exclude reference="qUS-qU-mHk"/>
+                                <exclude reference="cQA-sQ-Mgi"/>
+                                <exclude reference="pSe-96-EaU"/>
+                                <exclude reference="Pmx-Hu-dXs"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="bcL-YJ-cD1"/>
+                                <include reference="GaB-dj-GqJ"/>
+                                <include reference="sMc-wW-TWW"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="T0w-DQ-Uls"/>
+                                <include reference="ihU-De-eW7"/>
+                                <include reference="mCO-Hb-XNU"/>
+                                <include reference="qUS-qU-mHk"/>
+                                <include reference="cQA-sQ-Mgi"/>
+                                <include reference="pSe-96-EaU"/>
+                                <include reference="Pmx-Hu-dXs"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="progressView" destination="bcL-YJ-cD1" id="ZDL-jd-jtP"/>
+                        <outlet property="startButton" destination="GaB-dj-GqJ" id="hPZ-RY-5qj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HlY-om-o8f" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

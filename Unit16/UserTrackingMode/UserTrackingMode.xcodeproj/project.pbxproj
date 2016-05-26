@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43DAB2361A1B256C0017654C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DAB2351A1B256C0017654C /* main.m */; };
+		43DAB2391A1B256C0017654C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DAB2381A1B256C0017654C /* AppDelegate.m */; };
+		43DAB23C1A1B256C0017654C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DAB23B1A1B256C0017654C /* ViewController.m */; };
+		43DAB23F1A1B256C0017654C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43DAB23D1A1B256C0017654C /* Main.storyboard */; };
+		43DAB2411A1B256C0017654C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DAB2401A1B256C0017654C /* Images.xcassets */; };
+		43DAB2441A1B256C0017654C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43DAB2421A1B256C0017654C /* LaunchScreen.xib */; };
+		43DAB2501A1B256C0017654C /* UserTrackingModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DAB24F1A1B256C0017654C /* UserTrackingModeTests.m */; };
+		43DAB25A1A1B26F10017654C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43DAB2591A1B26F10017654C /* CoreLocation.framework */; };
+		43DAB25C1A1B26F50017654C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43DAB25B1A1B26F50017654C /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43DAB24A1A1B256C0017654C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43DAB2281A1B256C0017654C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43DAB22F1A1B256C0017654C;
+			remoteInfo = UserTrackingMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43DAB2301A1B256C0017654C /* UserTrackingMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserTrackingMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43DAB2341A1B256C0017654C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43DAB2351A1B256C0017654C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43DAB2371A1B256C0017654C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43DAB2381A1B256C0017654C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43DAB23A1A1B256C0017654C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43DAB23B1A1B256C0017654C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43DAB23E1A1B256C0017654C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43DAB2401A1B256C0017654C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43DAB2431A1B256C0017654C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		43DAB2491A1B256C0017654C /* UserTrackingModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserTrackingModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43DAB24E1A1B256C0017654C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43DAB24F1A1B256C0017654C /* UserTrackingModeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTrackingModeTests.m; sourceTree = "<group>"; };
+		43DAB2591A1B26F10017654C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		43DAB25B1A1B26F50017654C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43DAB22D1A1B256C0017654C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DAB25C1A1B26F50017654C /* MapKit.framework in Frameworks */,
+				43DAB25A1A1B26F10017654C /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43DAB2461A1B256C0017654C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43DAB2271A1B256C0017654C = {
+			isa = PBXGroup;
+			children = (
+				43DAB25B1A1B26F50017654C /* MapKit.framework */,
+				43DAB2591A1B26F10017654C /* CoreLocation.framework */,
+				43DAB2321A1B256C0017654C /* UserTrackingMode */,
+				43DAB24C1A1B256C0017654C /* UserTrackingModeTests */,
+				43DAB2311A1B256C0017654C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43DAB2311A1B256C0017654C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43DAB2301A1B256C0017654C /* UserTrackingMode.app */,
+				43DAB2491A1B256C0017654C /* UserTrackingModeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43DAB2321A1B256C0017654C /* UserTrackingMode */ = {
+			isa = PBXGroup;
+			children = (
+				43DAB2371A1B256C0017654C /* AppDelegate.h */,
+				43DAB2381A1B256C0017654C /* AppDelegate.m */,
+				43DAB23A1A1B256C0017654C /* ViewController.h */,
+				43DAB23B1A1B256C0017654C /* ViewController.m */,
+				43DAB23D1A1B256C0017654C /* Main.storyboard */,
+				43DAB2401A1B256C0017654C /* Images.xcassets */,
+				43DAB2421A1B256C0017654C /* LaunchScreen.xib */,
+				43DAB2331A1B256C0017654C /* Supporting Files */,
+			);
+			path = UserTrackingMode;
+			sourceTree = "<group>";
+		};
+		43DAB2331A1B256C0017654C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43DAB2341A1B256C0017654C /* Info.plist */,
+				43DAB2351A1B256C0017654C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43DAB24C1A1B256C0017654C /* UserTrackingModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				43DAB24F1A1B256C0017654C /* UserTrackingModeTests.m */,
+				43DAB24D1A1B256C0017654C /* Supporting Files */,
+			);
+			path = UserTrackingModeTests;
+			sourceTree = "<group>";
+		};
+		43DAB24D1A1B256C0017654C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43DAB24E1A1B256C0017654C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43DAB22F1A1B256C0017654C /* UserTrackingMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43DAB2531A1B256C0017654C /* Build configuration list for PBXNativeTarget "UserTrackingMode" */;
+			buildPhases = (
+				43DAB22C1A1B256C0017654C /* Sources */,
+				43DAB22D1A1B256C0017654C /* Frameworks */,
+				43DAB22E1A1B256C0017654C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UserTrackingMode;
+			productName = UserTrackingMode;
+			productReference = 43DAB2301A1B256C0017654C /* UserTrackingMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43DAB2481A1B256C0017654C /* UserTrackingModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43DAB2561A1B256C0017654C /* Build configuration list for PBXNativeTarget "UserTrackingModeTests" */;
+			buildPhases = (
+				43DAB2451A1B256C0017654C /* Sources */,
+				43DAB2461A1B256C0017654C /* Frameworks */,
+				43DAB2471A1B256C0017654C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43DAB24B1A1B256C0017654C /* PBXTargetDependency */,
+			);
+			name = UserTrackingModeTests;
+			productName = UserTrackingModeTests;
+			productReference = 43DAB2491A1B256C0017654C /* UserTrackingModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43DAB2281A1B256C0017654C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = tonyguan;
+				TargetAttributes = {
+					43DAB22F1A1B256C0017654C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					43DAB2481A1B256C0017654C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 43DAB22F1A1B256C0017654C;
+					};
+				};
+			};
+			buildConfigurationList = 43DAB22B1A1B256C0017654C /* Build configuration list for PBXProject "UserTrackingMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43DAB2271A1B256C0017654C;
+			productRefGroup = 43DAB2311A1B256C0017654C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43DAB22F1A1B256C0017654C /* UserTrackingMode */,
+				43DAB2481A1B256C0017654C /* UserTrackingModeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43DAB22E1A1B256C0017654C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DAB23F1A1B256C0017654C /* Main.storyboard in Resources */,
+				43DAB2441A1B256C0017654C /* LaunchScreen.xib in Resources */,
+				43DAB2411A1B256C0017654C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43DAB2471A1B256C0017654C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43DAB22C1A1B256C0017654C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DAB23C1A1B256C0017654C /* ViewController.m in Sources */,
+				43DAB2391A1B256C0017654C /* AppDelegate.m in Sources */,
+				43DAB2361A1B256C0017654C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43DAB2451A1B256C0017654C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DAB2501A1B256C0017654C /* UserTrackingModeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43DAB24B1A1B256C0017654C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43DAB22F1A1B256C0017654C /* UserTrackingMode */;
+			targetProxy = 43DAB24A1A1B256C0017654C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43DAB23D1A1B256C0017654C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43DAB23E1A1B256C0017654C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43DAB2421A1B256C0017654C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43DAB2431A1B256C0017654C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43DAB2511A1B256C0017654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43DAB2521A1B256C0017654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43DAB2541A1B256C0017654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UserTrackingMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43DAB2551A1B256C0017654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UserTrackingMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43DAB2571A1B256C0017654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UserTrackingModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserTrackingMode.app/UserTrackingMode";
+			};
+			name = Debug;
+		};
+		43DAB2581A1B256C0017654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UserTrackingModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserTrackingMode.app/UserTrackingMode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43DAB22B1A1B256C0017654C /* Build configuration list for PBXProject "UserTrackingMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43DAB2511A1B256C0017654C /* Debug */,
+				43DAB2521A1B256C0017654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43DAB2531A1B256C0017654C /* Build configuration list for PBXNativeTarget "UserTrackingMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43DAB2541A1B256C0017654C /* Debug */,
+				43DAB2551A1B256C0017654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43DAB2561A1B256C0017654C /* Build configuration list for PBXNativeTarget "UserTrackingModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43DAB2571A1B256C0017654C /* Debug */,
+				43DAB2581A1B256C0017654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43DAB2281A1B256C0017654C /* Project object */;
+}
