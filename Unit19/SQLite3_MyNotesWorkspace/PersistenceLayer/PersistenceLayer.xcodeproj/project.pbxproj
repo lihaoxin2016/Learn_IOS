@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4301EC061A18E6710059816E /* PersistenceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4301EBFA1A18E6710059816E /* PersistenceLayer.framework */; };
+		4301EC0D1A18E6710059816E /* PersistenceLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4301EC0C1A18E6710059816E /* PersistenceLayerTests.m */; };
+		4301EC441A18E6A90059816E /* Note.h in Headers */ = {isa = PBXBuildFile; fileRef = 4301EC401A18E6A90059816E /* Note.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4301EC451A18E6A90059816E /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 4301EC411A18E6A90059816E /* Note.m */; };
+		4301EC461A18E6A90059816E /* NoteDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = 4301EC421A18E6A90059816E /* NoteDAO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4301EC471A18E6A90059816E /* NoteDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4301EC431A18E6A90059816E /* NoteDAO.m */; };
+		4301EC571A19089A0059816E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4301EC561A19089A0059816E /* libsqlite3.dylib */; };
+		434890BE1A1C40A300843DAF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4301EC561A19089A0059816E /* libsqlite3.dylib */; };
+		434890BF1A1C40A300843DAF /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 4301EC411A18E6A90059816E /* Note.m */; };
+		434890C01A1C40A300843DAF /* NoteDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4301EC431A18E6A90059816E /* NoteDAO.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4301EC071A18E6710059816E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4301EBF11A18E6710059816E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4301EBF91A18E6710059816E;
+			remoteInfo = PersistenceLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4301EBFA1A18E6710059816E /* PersistenceLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PersistenceLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4301EBFE1A18E6710059816E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4301EC051A18E6710059816E /* PersistenceLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistenceLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4301EC0B1A18E6710059816E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4301EC0C1A18E6710059816E /* PersistenceLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceLayerTests.m; sourceTree = "<group>"; };
+		4301EC401A18E6A90059816E /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		4301EC411A18E6A90059816E /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		4301EC421A18E6A90059816E /* NoteDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDAO.h; sourceTree = "<group>"; };
+		4301EC431A18E6A90059816E /* NoteDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDAO.m; sourceTree = "<group>"; };
+		4301EC561A19089A0059816E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4301EBF61A18E6710059816E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4301EC571A19089A0059816E /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4301EC021A18E6710059816E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434890BE1A1C40A300843DAF /* libsqlite3.dylib in Frameworks */,
+				4301EC061A18E6710059816E /* PersistenceLayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4301EBF01A18E6710059816E = {
+			isa = PBXGroup;
+			children = (
+				4301EC561A19089A0059816E /* libsqlite3.dylib */,
+				4301EBFC1A18E6710059816E /* PersistenceLayer */,
+				4301EC091A18E6710059816E /* PersistenceLayerTests */,
+				4301EBFB1A18E6710059816E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4301EBFB1A18E6710059816E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4301EBFA1A18E6710059816E /* PersistenceLayer.framework */,
+				4301EC051A18E6710059816E /* PersistenceLayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4301EBFC1A18E6710059816E /* PersistenceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				4301EC401A18E6A90059816E /* Note.h */,
+				4301EC411A18E6A90059816E /* Note.m */,
+				4301EC421A18E6A90059816E /* NoteDAO.h */,
+				4301EC431A18E6A90059816E /* NoteDAO.m */,
+				4301EBFD1A18E6710059816E /* Supporting Files */,
+			);
+			path = PersistenceLayer;
+			sourceTree = "<group>";
+		};
+		4301EBFD1A18E6710059816E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4301EBFE1A18E6710059816E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4301EC091A18E6710059816E /* PersistenceLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4301EC0C1A18E6710059816E /* PersistenceLayerTests.m */,
+				4301EC0A1A18E6710059816E /* Supporting Files */,
+			);
+			path = PersistenceLayerTests;
+			sourceTree = "<group>";
+		};
+		4301EC0A1A18E6710059816E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4301EC0B1A18E6710059816E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4301EBF71A18E6710059816E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4301EC441A18E6A90059816E /* Note.h in Headers */,
+				4301EC461A18E6A90059816E /* NoteDAO.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4301EBF91A18E6710059816E /* PersistenceLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4301EC101A18E6710059816E /* Build configuration list for PBXNativeTarget "PersistenceLayer" */;
+			buildPhases = (
+				4301EBF51A18E6710059816E /* Sources */,
+				4301EBF61A18E6710059816E /* Frameworks */,
+				4301EBF71A18E6710059816E /* Headers */,
+				4301EBF81A18E6710059816E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersistenceLayer;
+			productName = PersistenceLayer;
+			productReference = 4301EBFA1A18E6710059816E /* PersistenceLayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4301EC041A18E6710059816E /* PersistenceLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4301EC131A18E6710059816E /* Build configuration list for PBXNativeTarget "PersistenceLayerTests" */;
+			buildPhases = (
+				4301EC011A18E6710059816E /* Sources */,
+				4301EC021A18E6710059816E /* Frameworks */,
+				4301EC031A18E6710059816E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4301EC081A18E6710059816E /* PBXTargetDependency */,
+			);
+			name = PersistenceLayerTests;
+			productName = PersistenceLayerTests;
+			productReference = 4301EC051A18E6710059816E /* PersistenceLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4301EBF11A18E6710059816E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tonyguan;
+				TargetAttributes = {
+					4301EBF91A18E6710059816E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4301EC041A18E6710059816E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 4301EBF41A18E6710059816E /* Build configuration list for PBXProject "PersistenceLayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4301EBF01A18E6710059816E;
+			productRefGroup = 4301EBFB1A18E6710059816E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4301EBF91A18E6710059816E /* PersistenceLayer */,
+				4301EC041A18E6710059816E /* PersistenceLayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4301EBF81A18E6710059816E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4301EC031A18E6710059816E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4301EBF51A18E6710059816E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4301EC471A18E6A90059816E /* NoteDAO.m in Sources */,
+				4301EC451A18E6A90059816E /* Note.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4301EC011A18E6710059816E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4301EC0D1A18E6710059816E /* PersistenceLayerTests.m in Sources */,
+				434890C01A1C40A300843DAF /* NoteDAO.m in Sources */,
+				434890BF1A1C40A300843DAF /* Note.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4301EC081A18E6710059816E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4301EBF91A18E6710059816E /* PersistenceLayer */;
+			targetProxy = 4301EC071A18E6710059816E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4301EC0E1A18E6710059816E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4301EC0F1A18E6710059816E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4301EC111A18E6710059816E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PersistenceLayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51work6.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4301EC121A18E6710059816E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PersistenceLayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51work6.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4301EC141A18E6710059816E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PersistenceLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51work6.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4301EC151A18E6710059816E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PersistenceLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51work6.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4301EBF41A18E6710059816E /* Build configuration list for PBXProject "PersistenceLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4301EC0E1A18E6710059816E /* Debug */,
+				4301EC0F1A18E6710059816E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4301EC101A18E6710059816E /* Build configuration list for PBXNativeTarget "PersistenceLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4301EC111A18E6710059816E /* Debug */,
+				4301EC121A18E6710059816E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4301EC131A18E6710059816E /* Build configuration list for PBXNativeTarget "PersistenceLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4301EC141A18E6710059816E /* Debug */,
+				4301EC151A18E6710059816E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4301EBF11A18E6710059816E /* Project object */;
+}
